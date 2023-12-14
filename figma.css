@@ -1,0 +1,142 @@
+
+
+
+body{
+   
+       
+        font-family: Roboto;
+         font-size: 14px;
+         margin: left 100px;;
+         font-weight: 400;
+  
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--Colour-Main-Blue-500, #505F98);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Regular 14 */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    }
+
+
+    #titre{
+        color: var(--Colour-Logo-Primary, #37447E);
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Bold 26 */
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 38px; /* 146.154% */
+    }
+#navbar{
+display:flex;
+margin: 18px 165px;
+align-items: center;
+
+
+}
+
+#navbar > * {
+    margin-right: 200px; 
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-right: 60px;
+    
+}
+#titre2{
+width: 160px; 
+height: 20px;
+background-color: black;
+color: var(--colour-secondary-white-100-general, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Medium 12 */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 150% */
+}
+
+
+
+.text{
+    
+    color: var(--Colour-Main-Blue-900, #091133);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Medium 50 */
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 66px; /* 132% */
+    letter-spacing: 1px;
+
+}
+.text1{
+    width: 539px;
+    color: var(--Colour-Main-Blue-500, #505F98);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Regular 18 */
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.purchase{
+    width: 189px;
+    background-color: black;
+    color: var(--colour-secondary-white-100-general, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Medium 16 */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+
+
+}
+.purchase1{
+    width: 189px;
+    color: var(--Colour-Main-Blue-900, #091133);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Medium 16 */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+
+
+}
+img{
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: -1;
+}
